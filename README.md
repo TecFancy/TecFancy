@@ -41,7 +41,7 @@ Community work, not affiliated with DeepSeek.
 
 我做的几个插件里，最值得先看的是 **[dsh-auth-gate](https://github.com/TecFancy/dsh-auth-gate)**。dsh 本身没有登录功能，把实例开到公网上，谁拿到地址谁就能用你的 agent、消耗你的 token。这个插件补上的就是登录：密码或共享令牌登录、TOTP、Passkey、限流，还带一个管理用户的命令行。
 
-**[dsh-lingualab](https://github.com/TecFancy/dsh-lingualab)** 是另一回事，不算「dsh 缺的东西」。它是我自己想用的一个精听面板：把工作区里的音频和字幕拖进去，就能一句一句练，变速、循环、跟读、录音都有；听到好的句子可以收藏，笔记直接写回磁盘，agent 也能读。
+**[dsh-lingualab](https://github.com/TecFancy/dsh-lingualab)** 则是一个自用的英语精听工具：加载工作区里的音频和字幕后，就能一句一句跟着练，变速、循环、跟读、录音都有。遇到好的表达可以收藏，收藏的句子和笔记都写在磁盘上，agent 也能读。可以把它理解成一台复读机，只是比实体的更方便。
 
 还有一个 **[dsh-deeptutor](https://github.com/TecFancy/dsh-deeptutor)**，把 DeepTutor 接进对话里。想弄懂一个概念、想让人出几道题考自己、想规划一条学习路线，都不用离开当前会话。
 
