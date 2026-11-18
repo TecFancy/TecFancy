@@ -45,4 +45,6 @@ Community work, not affiliated with DeepSeek.
 
 还有一个 **[dsh-deeptutor](https://github.com/TecFancy/dsh-deeptutor)**，把 [DeepTutor](https://github.com/HKUDS/DeepTutor) 接进对话里。想弄懂一个概念、想让人出几道题考自己、想规划一条学习路线，都不用离开当前会话。
 
+三个插件都只需一行命令即可安装。
+
 </details>
