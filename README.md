@@ -39,7 +39,7 @@ Community work, not affiliated with DeepSeek.
 
 前端开发工程师，React 和 TypeScript 为主。今年下半年开始给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（简称 dsh）写插件。dsh 是一个开源的 agent harness，安装后即可作为编码助手使用，插件系统是它的骨架。
 
-我做的几个插件里，最值得先看的是 **[dsh-auth-gate](https://github.com/TecFancy/dsh-auth-gate)**。dsh 本身没有登录功能，把实例开到公网上，谁拿到地址谁就能用你的 agent、消耗你的 token。这个插件就是给 dsh 装一道门：密码或共享令牌登录、TOTP、Passkey、限流，还带一个管理用户的命令行。
+我做的几个插件里，最值得先看的是 **[dsh-auth-gate](https://github.com/TecFancy/dsh-auth-gate)**。dsh 本身没有登录功能，把实例开到公网上，谁拿到地址谁就能用你的 agent、消耗你的 token。这个插件补上的就是登录：密码或共享令牌登录、TOTP、Passkey、限流，还带一个管理用户的命令行。
 
 **[dsh-lingualab](https://github.com/TecFancy/dsh-lingualab)** 是另一回事，不算「dsh 缺的东西」。它是我自己想用的一个精听面板：把工作区里的音频和字幕拖进去，就能一句一句练，变速、循环、跟读、录音都有；听到好的句子可以收藏，笔记直接写回磁盘，agent 也能读。
 
